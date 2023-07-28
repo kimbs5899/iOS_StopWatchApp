@@ -16,6 +16,8 @@
 		C18DC66B2A54FB3000C500FC /* StopWatch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DC66A2A54FB3000C500FC /* StopWatch_AppTests.swift */; };
 		C18DC6752A54FB3000C500FC /* StopWatch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DC6742A54FB3000C500FC /* StopWatch_AppUITests.swift */; };
 		C18DC6772A54FB3000C500FC /* StopWatch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DC6762A54FB3000C500FC /* StopWatch_AppUITestsLaunchTests.swift */; };
+		C18DC6862A5508B900C500FC /* LapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18DC6852A5508B900C500FC /* LapCell.swift */; };
+		C19A5C8A2A5BB12300A15826 /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A5C892A5BB12300A15826 /* StopWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C18DC6702A54FB3000C500FC /* StopWatch_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopWatch_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18DC6742A54FB3000C500FC /* StopWatch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch_AppUITests.swift; sourceTree = "<group>"; };
 		C18DC6762A54FB3000C500FC /* StopWatch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C18DC6852A5508B900C500FC /* LapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapCell.swift; sourceTree = "<group>"; };
+		C19A5C892A5BB12300A15826 /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				C18DC6532A54FB2E00C500FC /* AppDelegate.swift */,
 				C18DC6552A54FB2E00C500FC /* SceneDelegate.swift */,
 				C18DC6572A54FB2E00C500FC /* ViewController.swift */,
+				C19A5C892A5BB12300A15826 /* StopWatch.swift */,
 				C18DC6592A54FB2E00C500FC /* Main.storyboard */,
+				C18DC6852A5508B900C500FC /* LapCell.swift */,
 				C18DC65C2A54FB3000C500FC /* Assets.xcassets */,
 				C18DC65E2A54FB3000C500FC /* LaunchScreen.storyboard */,
 				C18DC6612A54FB3000C500FC /* Info.plist */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18DC6582A54FB2E00C500FC /* ViewController.swift in Sources */,
+				C18DC6862A5508B900C500FC /* LapCell.swift in Sources */,
+				C19A5C8A2A5BB12300A15826 /* StopWatch.swift in Sources */,
 				C18DC6542A54FB2E00C500FC /* AppDelegate.swift in Sources */,
 				C18DC6562A54FB2E00C500FC /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T92LV6HV88;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatch_App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T92LV6HV88;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StopWatch_App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
